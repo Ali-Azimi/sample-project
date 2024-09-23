@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(36, 35%, 92%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+section {
+  border: 1px solid #63553f;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 500px;
+  text-align: center;
+  color: #63553f;
+}
+
+img {
+  transform: scaleX(-1);
+}
+
+.row {
+  width: 70%;
+  margin: 1rem auto;
+}
+
+input {
+  width: 100%;
+  background-color: #ece4d8;
+  border: 1px solid #ddcfb9;
+  padding: 8px;
+  border-radius: 8px;
+  color: #63553f;
+}
+
+input:focus {
+  outline-color: #63553f;
+}
+
+.flex {
+  display: flex;
+  gap: 1rem;
+}
+
+input[type="submit"] {
+  background-color: #63553f;
+  color: white;
+}
